@@ -36,5 +36,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc LICENSE
+%attr(0755, root, root) /usr/bin/keystone
 %{python_sitelib}/keystoneclient
 %{python_sitelib}/python_keystoneclient-*.egg-info
